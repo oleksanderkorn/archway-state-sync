@@ -1,14 +1,14 @@
-# Archway_state_sync
+# Archway State Sync
 
 #### Automatic installation
 
 ```
-wget https://raw.githubusercontent.com/studentmtk/Archway_state_sync/main/Archway_state_sync.sh
+wget https://raw.github.com/oleksanderkorn/archway-state-sync/blob/main/Archway_state_sync.sh
 bash Archway_state_sync.sh
 ```
 select  
 1 - complete installation of the environment on a new server and fast synchronization  
-2 - the server already has the umeed binary file, the network is initialized and you want to quickly catch up with the height of the network  
+2 - the server already has the Archway binary file, the network is initialized and you want to quickly catch up with the height of the network  
 3 - exit the menu
 
 #### Manual installation
@@ -34,7 +34,7 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 go version
 ```
 
-#### Creating a binary umeed file
+#### Creating a binary archwayd file
 ```
 git clone https://github.com/archway-network/archway
 cd archway
